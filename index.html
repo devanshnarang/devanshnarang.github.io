@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="a.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Rubik:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Devansh's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is 
+                <span class="purple">Devansh </span>
+                
+                and I am a passionate<br>
+        
+                <span id="element"></span>
+                <div class="buttons">
+                    <a href="https://github.com/devanshnarang04"><button class="btn" id="btns2">Download Resume</button></a>
+                    <a href="https://github.com/devanshnarang04"><button class="btn" id="btns2">Visit GitHub</button></a>
+                    <a href="https://www.linkedin.com/in/devansh-narang-779210249"><button class="btn" id="btns2">LinkedIn</button></a>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="3d-web-developer-working-on-project-illustration-png.webp" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-grey">What I have done so far,</span>
+            <br>
+            <h1 >SKILLS</h1>
+            <div class="box">
+                <div class="vertical">
+                    <div class="vertical-text">Python(2020-2022)</div>
+                    <img class="image-top" src="the-python-logo-on-top-of-imagery-representing-dna-sequencing-or-other-data.webp" alt="">
+                </div>
+                <div class="vertical">
+                    <div class="vertical-text">MySQL(2021-2022)</div>
+                    <img class="image-top" src="MySQL-Logo.png" alt="">
+                </div>
+                <div class="vertical">
+                    <div class="vertical-text">CPP(2021-2023)</div>
+                    <img class="image-top" src="CPP.jpg" alt="">
+                </div>
+                <div class="vertical">
+                    <div class="vertical-text">HTML,CSS,Js(2021-2023)</div>
+                    <img class="image-top" src="htmlcssjs-overview.png" alt="">
+                </div>
+            </div>
+            <br><br><br>
+            <h1>PROJECTS</h1>
+            <div class="box">
+                <div class="vertical">
+                    <div class="vertical-text"><a href="https://devanshnarang04.github.io/amazon-homepage/github/amazon-Homepage/
+                        " style="text-decoration: none;color: white;">Amazon Homepage Clone</a></div>
+
+                </div>
+                <div class="vertical">
+                    <div class="vertical-text"><a href="https://devanshnarang04.github.io/e-waste/WEBSITE/" style="text-decoration: none;color: white;">Electronic Waste Website</a></div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="flex">
+            <div class="footer-first">Devansh's Developer Portfolio</div>
+        </div>
+        <div class="optionsh">
+            <div class="options"><a href="#">Home</a></div>
+            <div class="options"><a href="#">About</a></div>
+            <div class="options"><a href="#">Services</a></div>
+            <div class="options"><a href="#">Contact</a></div>
+        </div>
+    </footer>
+    <div class="footer-rights">
+        www.devanshsportfolio.com | All rights reserved
+    </div>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Competitive Programmer','Web Developer.'],
+            typeSpeed: 80,
+        });
+        function myFunction(){
+            document.getElementById("btns1").innerHTML="Hello World";
+            alert("Hello");
+        }
+        </script>
+</body>
+</html>
