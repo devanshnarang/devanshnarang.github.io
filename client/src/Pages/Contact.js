@@ -28,7 +28,7 @@ const Contact = () => {
           );
       };
   return (
-    <div id="6 form">
+    <div id="6">
         <form ref={form} onSubmit={sendEmail} className="space-y-4">
       <div
         style={{
@@ -48,8 +48,8 @@ const Contact = () => {
           Contact Me
         </h1>
         <div
-          className="flex flex-col justify-center"
-          style={{ marginLeft: "40%", fontSize: "1.2rem", fontWeight: "bold" }}
+          className="flex flex-col items-center md:flex flex-col"
+          style={{ fontSize: "1.2rem", fontWeight: "bold" }}
         >
           <div className="mb-4">
             <h2>Name</h2>
