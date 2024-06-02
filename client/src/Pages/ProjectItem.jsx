@@ -54,7 +54,7 @@ function Item2() {
           <a href="https://github.com/devanshnarang/devanshnarang.github.io" className="media">
             <i className="fa fa-github" style={{ color: "white" }}></i>
           </a>
-          <a href="https://devanshnarang-github-1434u3gw6-devansh-narangs-projects.vercel.app" className="ml-4">
+          <a href="https://devanshnportfolio.vercel.app/" className="ml-4">
             <i className="fa fa-external-link" style={{ color: "white" }}></i>
           </a>
         </div>
