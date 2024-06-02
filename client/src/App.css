@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box ;
+}
+
+.spe:hover{
+  transform: scale(1.1)  
+}
+
+.pes{
+  outline:none;
+}
+
+.pres:hover{
+  transform: scale(1.05);
+}
+
+
+.social{
+  position: fixed;
+  top: 50%;
+  left: 0px;
+  padding: 12px;
+  background-color: #2ad883;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+.socials-container{
+  /* width: 150px; */
+  display: flex;
+  gap: 20px;
+  font-size: 24px;
+  color: #fff;
+  flex-direction: column;
+}
+.socials-container a{
+  text-decoration: none;
+  color: #fff;
+  transition: 0.2s all ease-in-out;
+}
+.socials-container a:hover{
+  transform: scale(1.15);
+}
