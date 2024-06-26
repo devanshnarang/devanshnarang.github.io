@@ -56,7 +56,7 @@ const Contact = () => {
             <input
               className="border-2 border-green-400 rounded-lg pes"
               type="text"
-              name="name"
+              name="from_name"
               placeholder="Enter your Name"
             />
           </div>
@@ -65,7 +65,7 @@ const Contact = () => {
             <input
               className="border-2 border-green-400 rounded-lg pes"
               type="email"
-              name="email"
+              name="from_email"
               placeholder="Enter your Email"
             />
           </div>
