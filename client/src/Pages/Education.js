@@ -37,7 +37,7 @@ const Education = () => {
           <h4 className="text-center">Delhi Technological University</h4>
           <h4 className="text-center" style={{ color: "green" }}>Btech in Computer Science & Engineering</h4>
           <h4 className="text-center">2022-2026</h4>
-          <h4 className="text-center">Percentage/CGPA - 8.96%</h4>
+          <h4 className="text-center">Percentage/CGPA - 8.94</h4>
         </div>
         <div ref={el => scrollRefs.current[1] = el} className='box w-full md:w-1/4 bg-slate-200 flex flex-col items-center font-bold border-2 border-green-500 rounded-lg p-6 m-2'>
           <img src="/images/school.png" className="rounded-full border-1 border-green-500 mb-4 h-25 w-20" alt="School" />
