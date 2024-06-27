@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
-import { Item1, Item2,Item3,Item4 } from "./ProjectItem";
-import { Photo1,Photo2,Photo3,Photo4} from "./Photo";
+import { Item1, Item2,Item3,Item4,Item5 } from "./ProjectItem";
+import { Photo1,Photo2,Photo3,Photo4,Photo5} from "./Photo";
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // Import AOS CSS file
 
@@ -59,6 +59,7 @@ function Project() {
         <Photo4 />
         <Item4 />
       </div>
+      
       </div> 
   );
 }

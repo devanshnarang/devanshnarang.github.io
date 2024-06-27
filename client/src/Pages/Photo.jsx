@@ -42,4 +42,7 @@ const Photo2 = () => {
   };
 
 
+
+
+
 export { Photo1 ,Photo2,Photo3,Photo4};

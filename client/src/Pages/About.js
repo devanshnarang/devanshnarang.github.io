@@ -18,7 +18,7 @@ const About = () => {
           Bachelor's in Technology in Computer Science from Delhi Technological University.
           I'm a full stack web developer specializing in crafting dynamic and visually
           appealing user interfaces. Armed with a strong foundation in HTML5, CSS3,
-          JavaScript, and React Js, I seamlessly blend creativity with technical proficiency
+          JavaScript, and React Js. I seamlessly blend creativity with technical proficiency
           to bring websites to life.
         </h3>
         <div className="mt-5">

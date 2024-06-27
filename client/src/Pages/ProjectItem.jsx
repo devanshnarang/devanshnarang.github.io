@@ -21,7 +21,7 @@ function Item1() {
         <a href="https://github.com/Daksh-1905/Carpooling-WebApp" className="media">
           <i className="fa fa-github" style={{ color: "white" }}></i>
         </a>
-        <a href="https://github.com/Daksh-1905/Carpooling-WebApp" className="ml-4">
+        <a href="https://delbil.vercel.app/" className="ml-4">
           <i className="fa fa-external-link" style={{ color: "white" }}></i>
         </a>
       </div>
