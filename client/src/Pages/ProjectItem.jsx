@@ -36,12 +36,12 @@ function Item2() {
       <div className="w-[80%] md:w-[50%]" style={{ flexWrap: "wrap", top: "0", justifyContent: "flex-start"}}>
         <div
           className="containerItem"
-          style={{ color: "whitesmoke", fontSize: "2rem", fontWeight: "bold" }}
+          style={{ color: "whitesmoke", fontSize: "2rem", fontWeight: "bold" ,textAlign:'right'}}
         >
             Portfolio
         </div>
-        <div style={{ textAlign: "left" }} className="text-white text-xl">
-          <p style={{ textAlign: "left" }}>
+        <div style={{ textAlign: "right" }} className="text-white text-xl">
+          <p style={{ textAlign: "right" }}>
           It is My Portfolio Website built to showcase my skill and to show my
           ability to make highly responsive websites with an attractive user
           interface.
@@ -50,7 +50,7 @@ function Item2() {
             React Js, Javascript, Tailwind Css
           </h3>
         </div>
-        <div id="media" className="text-3xl">
+        <div id="media" className="text-3xl" style={{textAlign:"right"}}>
           <a href="https://github.com/devanshnarang/devanshnarang.github.io" className="media">
             <i className="fa fa-github" style={{ color: "white" }}></i>
           </a>
@@ -69,19 +69,19 @@ function Item2() {
       <div className="w-[80%] md:w-[50%]" style={{ flexWrap: "wrap", top: "0", justifyContent: "flex-end"}}>
       <div
         className="containerItem"
-        style={{ color: "whitesmoke", fontSize: "2rem", fontWeight: "bold", textAlign: "right" }}
+        style={{ color: "whitesmoke", fontSize: "2rem", fontWeight: "bold", textAlign: "left" }}
       >
         CityPulse
       </div>
-      <div style={{ textAlign: "right" }} className="text-white text-xl">
-        <p style={{ textAlign: "right" }}>
+      <div style={{ textAlign: "left" }} className="text-white text-xl">
+        <p style={{ textAlign: "left" }}>
           An initiative towards building safer & smarter cities, being eco-friendly and proper utilization of resources
         </p>
         <h3 className="font-bold text-slate-400">
         React Js, NodeJs, Javascript, MongoDb
         </h3>
       </div>
-      <div id="media" style={{ textAlign: "right" }} className="text-3xl">
+      <div id="media" style={{ textAlign: "left" }} className="text-3xl">
         <a href="https://github.com/AyusGup/SmartCity" className="media">
           <i className="fa fa-github" style={{ color: "white" }}></i>
         </a>
@@ -107,7 +107,7 @@ function Item2() {
         <p style={{ textAlign: "right" }}>
           An initiative towards building cleaner environment, being eco-friendly and proper utilization of useful waste.
         </p>
-        <h3 className="font-bold text-slate-400">
+        <h3 className="font-bold text-slate-400" >
         HTML,CSS
         </h3>
       </div>
